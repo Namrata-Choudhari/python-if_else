@@ -1,0 +1,9 @@
+a=int(input("Enter the number 1-"))
+b=int(input("Enter the number 2-"))
+c=int(input("Enter the number 3-"))
+if b>a>c and c<a<b:
+    print(a,"is 2nd largest number")
+elif a>b>c and c<b<a:
+    print(b,"is 2nd largest number")
+elif b>c>a and a<c<b
+    print(c,"is 2nd largest number")
